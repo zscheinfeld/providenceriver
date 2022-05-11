@@ -6,10 +6,8 @@ var cnvheight
 
 
 function preload(){
-  song = loadSound('/1.m4a');
+  song = loadSound('1.m4a');
 }
-
-
 
 function setup() {
   cnvwidth = $("#sketch").outerWidth();
