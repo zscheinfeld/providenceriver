@@ -78,7 +78,7 @@ $( document ).ready(function() {
 
     $("#02").click(function(){
         console.log("click")
-        window.location.href = "providenceriver/scape2/index.html"
+        window.location.href = "/scape2/index.html"
     })
 
 
