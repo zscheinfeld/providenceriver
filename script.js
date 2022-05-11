@@ -5,10 +5,10 @@
         let particles = [];
         var cnvwidth
         var cnvheight   
-
         function preload(){
             song = loadSound('/1.m4a');
         }
+    
 
         function setup() {
         
@@ -77,14 +77,14 @@
             resizeCanvas(cnvwidth, cnvheight);
           }
 
-   
-$( document ).ready(function() {
+          $( document ).ready(function() {
 
-    $("#02").click(function(){
-        console.log("click")
-        window.location.href = "/providenceriver/scape2/index.html"
-    })
+            $("#02").click(function(){
+                console.log("click")
+                window.location.href = "/providenceriver/scape2/index.html"
+            })
+        
+        
+        });  
 
-
-});
 

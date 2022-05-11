@@ -3,9 +3,12 @@ let particles = [];
 var cnvwidth
 var cnvheight
 
+
+
 function preload(){
   song = loadSound('/1.m4a');
 }
+
 
 
 function setup() {
@@ -70,10 +73,11 @@ function windowResized() {
 
 $( document ).ready(function() {
 
-  $("#01").click(function(){
-      console.log("click")
-      window.location.href = "/providenceriver"
-  })
 
+
+  $("#01").click(function(){
+    console.log("click")
+    window.location.href = "/providenceriver"
+})
 
 });
