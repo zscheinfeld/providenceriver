@@ -6,8 +6,12 @@
         var cnvwidth
         var cnvheight   
 
+        function preload(){
+            song = loadSound('/1.m4a');
+        }
+
         function setup() {
-        song = loadSound('/1.m4a');
+        
         cnvwidth = $("#sketch").outerWidth();
         cnvheight = $("#sketch").outerHeight();
         var cnv = createCanvas(cnvwidth, cnvheight   );

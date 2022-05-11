@@ -3,11 +3,15 @@ let particles = [];
 var cnvwidth
 var cnvheight
 
+function preload(){
+  song = loadSound('/1.m4a');
+}
+
+
 function setup() {
   cnvwidth = $("#sketch").outerWidth();
   cnvheight = $("#sketch").outerHeight();
   console.log(cnvwidth)
-  song = loadSound('/1.m4a');
   var cnv = createCanvas(cnvwidth, cnvheight);
   cnv.parent('sketch');
   background(255, 0, 0);
@@ -68,7 +72,7 @@ $( document ).ready(function() {
 
   $("#01").click(function(){
       console.log("click")
-      window.location.href = "/index.html"
+      window.location.href = "/providenceriver"
   })
 
 
